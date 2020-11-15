@@ -1,16 +1,23 @@
 PODS:
-  - AModel (0.1.0)
+  - AModel (0.1.0):
+    - BModel
+  - BModel (0.1.0)
 
 DEPENDENCIES:
   - AModel (from `../`)
+
+SPEC REPOS:
+  https://github.com/HSCOO/PodsSource:
+    - BModel
 
 EXTERNAL SOURCES:
   AModel:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AModel: dd083834d7062f177f16ab0f84860a22df6d046d
+  AModel: 0b9584ed005192e25a3d48b1392d3bc65b37d8d1
+  BModel: 6258a4f5607c9a5a526a9630e361ec9e95ca6744
 
-PODFILE CHECKSUM: 21abdc23cf669771b1fc4ffad784cb16bf5f631a
+PODFILE CHECKSUM: c44819c8462a46a2351fb09ebf67a43a8149b03b
 
 COCOAPODS: 1.8.4
