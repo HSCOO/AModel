@@ -1,0 +1,16 @@
+PODS:
+  - AModel (0.1.0)
+
+DEPENDENCIES:
+  - AModel (from `../`)
+
+EXTERNAL SOURCES:
+  AModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AModel: dd083834d7062f177f16ab0f84860a22df6d046d
+
+PODFILE CHECKSUM: 21abdc23cf669771b1fc4ffad784cb16bf5f631a
+
+COCOAPODS: 1.8.4
